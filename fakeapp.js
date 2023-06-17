@@ -26,6 +26,7 @@ const initializeDBAndServer = async () => {
   }
 };
 
+// initializeDBAndServer();
 initializeDBAndServer();
 
 //
@@ -229,3 +230,7 @@ app.delete("/todos/:todoId/", async (request, response) => {
 });
 
 module.exports = app;
+
+// module.exports = app;
+
+// module.exports = app;
